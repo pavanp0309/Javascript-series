@@ -1,0 +1,83 @@
+level-1
+
+Use for loop & while-loop to iterate from 0 to 100 and print only even numbers
+Use for loop & while-loop to iterate from 0 to 100 and print only odd numbers
+Use for loop & while-loop to iterate from 0 to 100 and print only prime numbers
+Use for loop & while-loop  to iterate from 0 to 100 and print the sum of all numbers.
+Use for loop & while-loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds
+Write a program that calculates the factorial of a given positive integer
+              
+level-2
+
+Construct for loops that accomplish the following tasks:
+
+Print the numbers 0 - 20, one number per line.
+
+Print only the ODD values from 3 - 29, one number per line.
+
+Print the EVEN numbers 12 down to -14 in descending order, one number per line.
+
+Print the numbers 50 down to 20 in descending order, but only if the numbers are multiples of 3.
+
+
+
+Initialize two variables to hold the string 'LaunchCode' and the array [1, 5, 'LC101', 'blue', 42], then construct for loops to accomplish the following tasks:
+
+Print each element of the array to a new line.
+
+Print each character of the string---in reverse order---to a new line
+
+
+
+Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
+
+Define an empty evens array to hold the even numbers and an odds array for the odd numbers.
+
+In the loop, determine if each number is even or odd, then put that number into evens or odds, as appropriate.
+
+Print the arrays to confirm the results. Print evens first. Example: console.log(evens);
+
+
+
+Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
+
+Define an empty evens array to hold the even numbers and an odds array for the odd numbers.
+
+In the loop, determine if each number is even or odd, then put that number into evens or odds, as appropriate.
+
+Print the arrays to confirm the results. Print evens first. Example: console.log(evens);
+
+
+
+Define three variables for the socialprachar for the starting fuel level, another for the number of astronauts aboard, and the third for the altitude the shuttle reaches.
+
+Construct while loops to do the following:
+
+Prompt the user to enter the starting fuel level. The loop should continue until the user enters a positive value greater than 5000 but less than 30000.
+
+Use a second loop to query the user for the number of astronauts (up to a maximum of 7). Validate the entry by having the loop continue until the user enters an integer from 1 - 7.
+
+Use a final loop to monitor the fuel status and the altitude of the shuttle. Each iteration, decrease the fuel level by 100 units for each astronaut aboard. Also, increase the altitude by 50 kilometers. (Hint: The loop should end when there is not enough fuel to boost the crew another 50 km, so the fuel level might not reach 0).
+
+
+level-3
+
+Write a JS code to print a pattern using for loop
+
+/* 1 
+   1 2 
+   1 2 3 
+   1 2 3 4 
+   1 2 3 4 5 
+   1 2 3 4 5 6 
+   1 2 3 4 5 6 7 
+   1 2 3 4 5 6 7 8 */
+
+write a js code to print Square Star Pattern .
+write a js code to print  Hollow Square Pattern .
+write a js code to print  Right Triangle Pattern in Javascript.
+write a js code to print  left Triangle Pattern in Javascript.
+write a js code to print  Downward Triangle Star Pattern
+write a js code to print  Pyramid Pattern  
+write a js code to print reverse Pyramid Pattern
+write a js code to print Diamond Pattern in Javascript 
