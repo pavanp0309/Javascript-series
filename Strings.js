@@ -126,16 +126,36 @@ let str3="javascript"
 // console.log(str3.lastIndexOf("a",2))
 
 
-let a="javapython"
+// let a="javapython"
+// console.log(a.length)
+// console.log(a.slice())//returns the Entire string
+// console.log(a.slice(2))//returns from index value to last
+// console.log(a.slice(2,4))//returns from startindex value to previous value
+// console.log(a.slice(-2))//length+indexvalue ==>10+-2==8
+// console.log(a.slice(11))//index>stringlength==>empty
+// console.log(a.slice(5,2))//start>end==>empty
+
+
+// substring : is same like slice only difference is that negative values is treated as zero
+let a="pythonjavapython"
 console.log(a.length)
-console.log(a.slice())//returns the Entire string
-console.log(a.slice(2))//returns from index value to last
-console.log(a.slice(2,4))//returns from startindex value to previous value
-console.log(a.slice(-2))//length+indexvalue ==>10+-2==8
-console.log(a.slice(11))//index>stringlength==>empty
-console.log(a.slice(5,2))//start>end==>empty
+// console.log(a.substring())
+// console.log(a.substring(2))
+// console.log(a.substring(-2))// negative index is treated as Zero
+// console.log(a.substring(-2,5))// negative index is treated as Zero
+// console.log(a.substring(5,2))// start>end it swaps there values
 
+// Replace(searchvalue,replacablevalue)
+// console.log(a.replace("python"))//if no replace value is given it replaces with undefined
+// console.log(a.replace("python","script"))//if  replace value is given it replaces with given value
+// console.log(a.replace(/Python/i,"script"))//if  replace value is given it replaces with given value
+// console.log(a.replace(/Python/gi,"script"))//if  replace value is given it replaces with given value
+// console.log(a.replaceAll("python","script"))//if  replace value is given it replaces with given value
 
+// console.log(a.includes("pythons"))
+// console.log(a.startsWith("pythons"))
+// console.log(a.endsWith("python"))
+// console.log(a.split(''))
 
 
 

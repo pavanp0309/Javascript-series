@@ -1,0 +1,94 @@
+Basic Level
+Task 1: Select and Modify an Element
+Select an h1 element by its id and change its text content to "Welcome to DOM Manipulation!".
+
+Task 2: Create and Append an Element
+Create a new span element with the text "Hello, DOM!" and append it to an existing div with a specific id.
+
+Task 3: Modify an Element's Class
+Select a p element by its class name and add an additional class highlight to it.
+
+Task 4: Change Element Styles
+Select a div element by its id and change its background color to lightblue and its text color to darkblue.
+
+Task 5: Create and Append a Text Node
+Create a new text node with the content "This is a text node" and append it to a div with a specific class name.
+
+Task 6: Modify an Image's Source
+Select an image element by its id and change its src attribute to "new-image.jpg".
+
+Task 7: Change Inner HTML
+Select a div by its id and set its innerHTML to "<p>New paragraph inside div.</p>".
+
+Task 8: Retrieve and Display Attribute Value
+Select a link element by its id, retrieve its href attribute value, and log it to the console.
+
+Task 9: Append a List Item
+Create a new li element with the text "New List Item" and append it to an unordered list (ul) with a specific class name.
+
+Task 10: Set Element's Title Attribute
+Select a button element by its id and set its title attribute to "Click me!".
+
+
+Medium Level
+
+Task 1: Traverse to Child Elements
+Select a ul element by its class name, then find and log the text content of all its child li elements.
+
+Task 2: Insert an Element After Another
+Create a new p element with the text "Inserted After" and insert it after an existing paragraph with a specific id.
+
+Task 3: Replace an Existing Element
+Create a new h2 element with the text "New Heading" and replace an existing h2 element with this one.
+
+Task 4: Traverse to Sibling Elements
+Select an h3 element by its id, traverse to its next sibling element, and change its text content to "Sibling Updated".
+
+Task 5: Modify Multiple Attributes
+Select an input element by its id and set its type attribute to "password", placeholder to "Enter your password", and name to "user-password".
+
+Task 6: Move an Element to a New Parent
+Select an existing div by its class name and move it to a new parent section element.
+
+Task 7: Add a New Element After a Sibling:
+After the last p element inside the div, create and insert a new p element with the text "This is an additional paragraph".
+
+Task 8: Remove a Specific Child Element
+Select a div by its id, find a specific p child element by its class name, and remove it from the div.
+
+Task 9: Modify Multiple Styles
+Select a div by its class name and change its font size to 20px, padding to 10px, and border to 2px solid black.
+
+Task 10: Insert Multiple Elements
+Create two new li elements with text "Item 1" and "Item 2", and insert them into an existing ul with a specific class name.
+
+Advanced Level
+Task 1: Create a Complex Nested Structure
+Create a div with a class of "container". Inside it, create an h3 element with text "Section Header", a p element with text "Section Content", and append them all to the div. Finally, append this div to the body.
+
+Task 2: Remove All Child Elements
+Select a div by its id, remove all its child elements, and log a message to the console indicating that the div is now empty.
+
+Task 3: Modify Multiple Elements in a Loop
+Select all li elements inside a ul by its class name and change the text content of each li to "Modified Item".
+
+Task 4: Change Attributes of an Image:
+Find the first img element within the article and change its alt attribute to "New Image Description" and set its width attribute to 300.
+
+Task 5: Add Multiple Attributes Dynamically
+Select an existing img element by its class name and add three new attributes: data-id, alt, and title.
+
+Task 6: Dynamic Element Creation with Loop
+Create a ul element, then use a loop to create and append 5 li elements with the text "List Item 1", "List Item 2", etc., and append the ul to a div with a specific id.
+
+Task 7: Replace All Occurrences of a Tag
+Select all p elements in the document, replace them with div elements that contain the same text content as the original p elements.
+
+Task 8: Complex Traversal and Manipulation
+Select a div with a specific class name, traverse to its parent, find its last child element, and change its background color to yellow.
+
+Task 9: Merge and Append Multiple Elements
+Select two existing ul elements by their class names, merge all their li elements into a single ul, and append this new ul to a div with a specific id.
+
+Task 10: Create and Manipulate a Document Fragment
+Create a document fragment, then create and append three div elements with text "Fragment Div 1", "Fragment Div 2", and "Fragment Div 3" to this fragment. Finally, append the entire fragment to the body.
